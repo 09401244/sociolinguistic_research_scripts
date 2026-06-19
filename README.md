@@ -112,10 +112,10 @@ The table below shows current availability.
 | 6.1 | Interactional Analysis - Processing | Available |
 | 6.2 | Interactional Analysis - Analysis | Available |
 | 6.3 | Sociolinguistic Interviews - Processing | Available |
-| 7.1 | Geolinguistic Mapping - Processing | Pending |
-| 7.2 | Geolinguistic Mapping - Analysis | Pending |
-| 7.3 | Social Network Analysis - Processing | Pending |
-| 7.4 | Social Network Analysis - Analysis | Pending |
+| 7.1 | Geolinguistic Mapping - Processing | Available |
+| 7.2 | Geolinguistic Mapping - Analysis | Available |
+| 7.3 | Social Network Analysis - Processing | Available |
+| 7.4 | Social Network Analysis - Analysis | Available |
 | 8.1 | Sociolinguistic Corpus Analysis - Processing | Pending |
 | 8.2 | Sociolinguistic Corpus Analysis - Analysis | Pending |
 | 8.3 | Causal Analysis of Language Variation - Processing | Pending |
