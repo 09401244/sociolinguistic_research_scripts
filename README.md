@@ -105,10 +105,10 @@ The table below shows current availability.
 | 4.4 | Rhetorical Strategy Analysis - Analysis | Available |
 | 4.5 | Inclusive Language Audit - Processing | Available |
 | 4.6 | Inclusive Language Audit - Analysis | Available |
-| 5.1 | Assessing Public Attitudes - Processing | Pending |
-| 5.2 | Assessing Public Attitudes - Analysis | Pending |
-| 5.3 | Documenting Language Attitudes - Processing | Pending |
-| 5.4 | Documenting Language Attitudes - Analysis | Pending |
+| 5.1 | Assessing Public Attitudes - Processing | Available |
+| 5.2 | Assessing Public Attitudes - Analysis | Available |
+| 5.3 | Documenting Language Attitudes - Processing | Available |
+| 5.4 | Documenting Language Attitudes - Analysis | Available |
 | 6.1 | Interactional Analysis - Processing | Pending |
 | 6.2 | Interactional Analysis - Analysis | Pending |
 | 6.3 | Sociolinguistic Interviews - Processing | Pending |
