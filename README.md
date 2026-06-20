@@ -18,10 +18,18 @@ A citable archived version of this repository is available at:
 - Python 3.12 or higher
 - pandas
 - numpy
+- matplotlib
+- scipy
+- statsmodels
+- scikit-learn
 
-Install dependencies with:
+Install all dependencies with:
 
-    pip install pandas numpy
+    pip install pandas numpy matplotlib scipy statsmodels scikit-learn
+
+Not all packages are needed for every method. If you prefer to install
+only what you need, run the relevant script first and install any
+package that raises an ImportError.
 
 ---
 
@@ -93,9 +101,6 @@ Install dependencies with:
 
 ## Script Availability
 
-Scripts are added to this repository as they are verified.
-The table below shows current availability.
-
 | Listing | Method | Status |
 |---|---|---|
 | 3.1 | Prerequisite Preprocessing Script | Available |
@@ -116,32 +121,32 @@ The table below shows current availability.
 | 7.2 | Geolinguistic Mapping - Analysis | Available |
 | 7.3 | Social Network Analysis - Processing | Available |
 | 7.4 | Social Network Analysis - Analysis | Available |
-| 8.1 | Sociolinguistic Corpus Analysis - Processing | Pending |
-| 8.2 | Sociolinguistic Corpus Analysis - Analysis | Pending |
-| 8.3 | Causal Analysis of Language Variation - Processing | Pending |
-| 8.4 | Causal Analysis of Language Variation - Analysis | Pending |
-| 8.5 | Social Media Language Analysis - Processing | Pending |
-| 8.6 | Social Media Language Analysis - Analysis | Pending |
-| 9.1 | Evaluating Language Interventions - Processing | Pending |
-| 9.2 | Evaluating Language Interventions - Analysis | Pending |
-| 10.1 | Predictive Sociolinguistic Modeling - Processing | Pending |
-| 10.2 | Predictive Sociolinguistic Modeling - Analysis | Pending |
-| 10.3 | Computational Simulation of Language Change - Processing | Pending |
-| 10.4 | Computational Simulation of Language Change - Analysis | Pending |
-| 10.5 | Language Change Longitudinal Tracking - Processing | Pending |
-| 10.6 | Language Change Longitudinal Tracking - Analysis | Pending |
-| 10.7 | Language Prestige Analysis - Processing | Pending |
-| 10.8 | Language Prestige Analysis - Analysis | Pending |
-| 10.9 | Language Trend Forecasting - Processing | Pending |
-| 10.10 | Language Trend Forecasting - Analysis | Pending |
-| 10.11 | Sociolinguistic Machine Learning - Processing | Pending |
-| 10.12 | Sociolinguistic Machine Learning - Analysis | Pending |
-| 10.13 | Sociolinguistic Trend Forecasting - Processing | Pending |
-| 10.14 | Sociolinguistic Trend Forecasting - Analysis | Pending |
-| 10.15 | Language Choice Modeling - Processing | Pending |
-| 10.16 | Language Choice Modeling - Analysis | Pending |
-| 10.17 | Language Practice Network Mapping - Processing | Pending |
-| 10.18 | Language Practice Network Mapping - Analysis | Pending |
+| 8.1 | Sociolinguistic Corpus Analysis - Processing | Available |
+| 8.2 | Sociolinguistic Corpus Analysis - Analysis | Available |
+| 8.3 | Causal Analysis of Language Variation - Processing | Available |
+| 8.4 | Causal Analysis of Language Variation - Analysis | Available |
+| 8.5 | Social Media Language Analysis - Processing | Available |
+| 8.6 | Social Media Language Analysis - Analysis | Available |
+| 9.1 | Evaluating Language Interventions - Processing | Available |
+| 9.2 | Evaluating Language Interventions - Analysis | Available |
+| 10.1 | Predictive Sociolinguistic Modeling - Processing | Available |
+| 10.2 | Predictive Sociolinguistic Modeling - Analysis | Available |
+| 10.3 | Computational Simulation of Language Change - Processing | Available |
+| 10.4 | Computational Simulation of Language Change - Analysis | Available |
+| 10.5 | Language Change Longitudinal Tracking - Processing | Available |
+| 10.6 | Language Change Longitudinal Tracking - Analysis | Available |
+| 10.7 | Language Prestige Analysis - Processing | Available |
+| 10.8 | Language Prestige Analysis - Analysis | Available |
+| 10.9 | Language Trend Forecasting - Processing | Available |
+| 10.10 | Language Trend Forecasting - Analysis | Available |
+| 10.11 | Sociolinguistic Machine Learning - Processing | Available |
+| 10.12 | Sociolinguistic Machine Learning - Analysis | Available |
+| 10.13 | Sociolinguistic Trend Forecasting - Processing | Available |
+| 10.14 | Sociolinguistic Trend Forecasting - Analysis | Available |
+| 10.15 | Language Choice Modeling - Processing | Available |
+| 10.16 | Language Choice Modeling - Analysis | Available |
+| 10.17 | Language Practice Network Mapping - Processing | Available |
+| 10.18 | Language Practice Network Mapping - Analysis | Available |
 
 ---
 
@@ -160,6 +165,12 @@ Output files follow the naming convention:
 - `out_<cluster>_<slug>_preprocessed.csv` -- after Step 1
 - `out_<cluster>_<slug>_processed.csv` -- after Step 2
 - `out_<cluster>_<slug>_analyzed.csv` -- after Step 3
+
+**Note:** Three methods use their own raw input files instead of
+passing through Step 1: Language Prestige Analysis (Listing 10.7),
+Language Trend Forecasting (Listing 10.9), and Computational
+Simulation of Language Change (Listing 10.3). See the book and
+script comments for details.
 
 ---
 
