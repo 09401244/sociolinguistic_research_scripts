@@ -116,7 +116,7 @@ package that raises an ImportError.
 | 5.4 | Documenting Language Attitudes - Analysis | Available |
 | 6.1 | Interactional Analysis - Processing | Available |
 | 6.2 | Interactional Analysis - Analysis | Available |
-| 6.3 | Sociolinguistic Interviews - Processing (no separate analysis script; use Listing 6.2) | Available |
+| 6.3 | Sociolinguistic Interviews - Processing | Available |
 | 7.1 | Geolinguistic Mapping - Processing | Available |
 | 7.2 | Geolinguistic Mapping - Analysis | Available |
 | 7.3 | Social Network Analysis - Processing | Available |
@@ -171,6 +171,11 @@ passing through Step 1: Language Prestige Analysis (Listing 10.7),
 Language Trend Forecasting (Listing 10.9), and Computational
 Simulation of Language Change (Listing 10.3). See the book and
 script comments for details.
+
+**Note:** Listing 6.3 (Sociolinguistic Interviews - Processing) has
+no paired analysis script. After processing with Listing 6.3, use
+Listing 6.2 (Interactional Analysis - Analysis) to perform the
+statistical analysis on the coding-ready file.
 
 ---
 
