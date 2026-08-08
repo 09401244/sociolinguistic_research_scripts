@@ -1,15 +1,21 @@
-# Sociolinguistic Research: Facilitating Analysis with Artificial Intelligence
+# The Sociolinguistic Research Pipeline
 ## Python Script Repository
 
-**Authors:** Ray G Opao, Mennen Pearl C Talibong, Marivel V Burgos
+**Authors:** Ray G Opao, Mennen Pearl C Talibong, Marinel V Burgos
 
 This repository contains all Python scripts referenced in the book
-*Sociolinguistic Research: Facilitating Analysis with Artificial
+*The Sociolinguistic Research Pipeline: A Practical, Value-Based Guide
+to Designing, Analyzing, and Interpreting Research with Artificial
 Intelligence*. Scripts are organised by chapter and listing number,
 mirroring the book's structure.
 
 A citable archived version of this repository is available at:
-**https://doi.org/10.5281/zenodo.PENDING**
+**[10.5281/zenodo.20774697](https://doi.org/10.5281/zenodo.20774697)**
+
+This is a Concept DOI: it always resolves to the latest version of
+this repository. Cite this DOI for general reference; cite a specific
+version DOI if you need to reference the exact state of the scripts
+used in a particular analysis.
 
 ---
 
